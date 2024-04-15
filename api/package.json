@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API desenvolvida no programa Explore da Rocktseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "Mr.JCRJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
